@@ -20,9 +20,9 @@
 // console.log(a);
 
 let arr=[4,32,21,34];
-let b=((h1,h2)=>{
+let a=((h1,h2)=>{
     return h1+h2;
 })
-let c = arr.reduce(b);
+let c = arr.reduce(a);
 console.log(c);
 
